@@ -24,6 +24,20 @@ console.log(box);
 var primeiro = box.numero;
 console.log(primeiro);*/
 
+/*
+function teste(x, y){
+    soma = x + y;
+    divisao = x/y;
+    console.log(soma);
+    console.log(divisao);
+};
 
+teste(4, 6);
+*/
 
+var funcao1 = (x, y)=>{
+    soma = x + y;
+    console.log(soma);
+};
 
+funcao1(4, 6);
